@@ -1,8 +1,18 @@
-header{
+* {
+    font-family: roboto, sans-serif;
+}
+
+header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
     
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: extra-bold;
+    /* color: #F9FAF8; */
 }
 
 ul {
@@ -20,6 +30,26 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: center;
+}
+.figures {
+    display: flex;  
+}
+
+#fig1, #fig2, #fig3, #fig4 {
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+}
+
+.section4 {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.section4 .call-to-action {
+    border: 3px solid #3882f6;
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
 }
 
 
