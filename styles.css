@@ -6,7 +6,7 @@ header {
     display: flex;
     flex-direction: row;
     justify-content: space-around;
-    
+    background-color: #1f2937;   
 }
 
 h1 {
@@ -30,6 +30,7 @@ li {
     display: flex;
     flex-direction: row;
     justify-content: center;
+    background-color: #1f2937;
 }
 .figures {
     display: flex;  
